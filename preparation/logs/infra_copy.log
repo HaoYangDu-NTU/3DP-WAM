@@ -1,0 +1,7 @@
+source=/data/fcy/code/openwam-exp
+destination=/data/haoyang/3DP-wam
+commit=d5785d1cdb92c027785e861daca06c6e65c0dd99
+tracked_files=1829
+all_sha256_or_symlink_targets_match=True
+source_worktree_clean=True
+Ignored weights/cache/outputs/reports not copied.

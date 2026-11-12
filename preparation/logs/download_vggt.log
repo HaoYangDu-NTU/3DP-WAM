@@ -1,0 +1,14 @@
+Preparing vggt-1b/model.safetensors
+Verified model.safetensors: f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e
+Preparing vggt-1b/config.json
+Verified config.json: a73e929a168b900546a84fe88cd70dfaaf2f8e39cf77355b12984eaa686f3855
+Preparing vggt-1b/README.md
+Verified README.md: d666ecaba89db88cb66bf06db6daddfdc2400e13f2a39e39c84e888b27fbc615
+Traceback (most recent call last):
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 117, in <module>
+    main()
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 102, in main
+    shutil.copyfile(code / spec["code_license_file"], target / "CODE_LICENSE.txt")
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/haoyang/3DP-wam/third_party/vggt/LICENSE.txt'

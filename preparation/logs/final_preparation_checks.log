@@ -1,0 +1,11 @@
+PASS /data/haoyang/3DP-wam/.venv-geometry/bin/python -m py_compile scripts/download_assets/download_geometry_encoders.py scripts/download_assets/validate_geometry_weights.py
+PASS git diff --check
+PASS git diff --exit-code -- openwam configs scripts/train.py scripts/experiment.py
+PASS CPU pretrained loading, frozen parameters, no forward/backward: utonia-tiny
+PASS CPU pretrained loading, frozen parameters, no forward/backward: vggt-1b
+PASS CPU pretrained loading, frozen parameters, no forward/backward: dinov3-hplus
+PASS CPU pretrained loading, frozen parameters, no forward/backward: dinov3-l
+PASS provenance and license files: utonia-tiny
+PASS provenance and license files: vggt-1b
+PASS all relative links in research document exist
+No baseline smoke, model forward/backward, cache build, training, evaluation or GPU allocation performed.

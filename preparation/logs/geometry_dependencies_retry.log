@@ -1,0 +1,5 @@
+Looking in links: https://data.pyg.org/whl/torch-2.7.0+cu128.html
+Collecting spconv-cu126
+  Downloading spconv_cu126-2.3.8-cp310-cp310-manylinux_2_28_x86_64.whl (70.5 MB)
+     ━━━━━━━━━━                               18.4/70.5 MB 35.5 kB/s eta 0:24:28
+ERROR: Operation cancelled by user

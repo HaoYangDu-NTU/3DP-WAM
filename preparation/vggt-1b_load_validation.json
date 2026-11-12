@@ -1,0 +1,29 @@
+{
+  "name": "vggt-1b",
+  "directory": "/data/haoyang/3DP-wam/encoder/vggt-1b",
+  "device": "cpu",
+  "forward_executed": false,
+  "backward_executed": false,
+  "gpu_memory": null,
+  "status": "strict_cpu_load_passed",
+  "torch": "2.7.1+cu128",
+  "checkpoint_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+  "code_commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "load_method": "VGGT(**official_config) + safetensors + strict=True, assign=True",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "model_class": "VGGT",
+  "parameter_count": 1256537516,
+  "trainable_parameter_count": 0,
+  "frozen": true,
+  "eval_mode": true,
+  "elapsed_seconds": 15.361362830735743,
+  "note": "Weight preparation validation only. No feature extraction, gradient-flow, integration, or training claim.",
+  "dependencies": {
+    "torch": "2.7.1+cu128",
+    "transformers": "5.17.0",
+    "huggingface-hub": "1.31.0",
+    "safetensors": "0.8.0",
+    "timm": "1.0.29"
+  }
+}

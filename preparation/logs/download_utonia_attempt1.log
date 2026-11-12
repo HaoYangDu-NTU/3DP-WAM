@@ -1,0 +1,30 @@
+Preparing utonia-tiny/utonia_tiny.pth
+Verified utonia_tiny.pth: e49a1944403d4ec3df459537fb7d5b132326736d0ebdb7c5a74868f3fa50d137
+Preparing utonia-tiny/README.md
+Verified README.md: a648786bfc4d4b9d0e6409b96dee8812726107f0c47a168fac88e4d6d18753f1
+Download attempt 1/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 2/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 3/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 4/4: HTTPError: HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 99, in <module>
+    link = ROOT / "assets/pretrained" / name
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 83, in main
+    local = args.reuse_from / filename if args.reuse_from else None
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 48, in fetch
+    _download_direct(url, path)
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_visual_encoder.py", line 305, in _download_direct
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden

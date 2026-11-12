@@ -1,0 +1,242 @@
+{
+  "updated_at": "2026-11-12T07:40:50.116233+00:00",
+  "project": "3DP-wam",
+  "infra_source": "/data/fcy/code/openwam-exp",
+  "infra_commit": "d5785d1cdb92c027785e861daca06c6e65c0dd99",
+  "copied_files": 1829,
+  "scope": "Resource preparation, CPU pretrained loading only; no experiments",
+  "models": {
+    "utonia-tiny": {
+      "name": "utonia-tiny",
+      "directory": "/data/haoyang/3DP-wam/encoder/utonia-tiny",
+      "device": "cpu",
+      "forward_executed": false,
+      "backward_executed": false,
+      "gpu_memory": null,
+      "status": "strict_cpu_load_passed",
+      "torch": "2.7.1+cu128",
+      "checkpoint_sha256": "e49a1944403d4ec3df459537fb7d5b132326736d0ebdb7c5a74868f3fa50d137",
+      "code_commit": "5fce241d3fd943bdef2db14fdd41fff8b090d98e",
+      "load_method": "official utonia.load(local_path); load_state_dict strict=True by default",
+      "attention_override": {
+        "enable_flash": false
+      },
+      "model_class": "PointTransformerV3",
+      "parameter_count": 9326106,
+      "trainable_parameter_count": 0,
+      "frozen": true,
+      "eval_mode": true,
+      "elapsed_seconds": 15.105124729685485,
+      "note": "Weight preparation validation only. No feature extraction, gradient-flow, integration, or training claim.",
+      "dependencies": {
+        "torch": "2.7.1+cu128",
+        "torch-scatter": "2.1.2+pt27cu128",
+        "spconv-cu126": "2.3.8",
+        "cumm-cu126": "0.7.11",
+        "transformers": "5.17.0",
+        "huggingface-hub": "1.31.0",
+        "safetensors": "0.8.0",
+        "timm": "1.0.29",
+        "addict": "2.4.0"
+      }
+    },
+    "vggt-1b": {
+      "name": "vggt-1b",
+      "directory": "/data/haoyang/3DP-wam/encoder/vggt-1b",
+      "device": "cpu",
+      "forward_executed": false,
+      "backward_executed": false,
+      "gpu_memory": null,
+      "status": "strict_cpu_load_passed",
+      "torch": "2.7.1+cu128",
+      "checkpoint_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+      "code_commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+      "load_method": "VGGT(**official_config) + safetensors + strict=True, assign=True",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "model_class": "VGGT",
+      "parameter_count": 1256537516,
+      "trainable_parameter_count": 0,
+      "frozen": true,
+      "eval_mode": true,
+      "elapsed_seconds": 15.361362830735743,
+      "note": "Weight preparation validation only. No feature extraction, gradient-flow, integration, or training claim.",
+      "dependencies": {
+        "torch": "2.7.1+cu128",
+        "transformers": "5.17.0",
+        "huggingface-hub": "1.31.0",
+        "safetensors": "0.8.0",
+        "timm": "1.0.29"
+      }
+    },
+    "dinov3-hplus": {
+      "name": "dinov3-hplus",
+      "directory": "/data/haoyang/3DP-wam/encoder/dinov3-hplus",
+      "device": "cpu",
+      "forward_executed": false,
+      "backward_executed": false,
+      "gpu_memory": null,
+      "status": "strict_cpu_load_passed",
+      "torch": "2.7.1+cu128",
+      "checkpoint_sha256": "3e1d4d18b9bfa9f28fad8e9de6a783f1313532d3460efa4cd0b12521d81d1a4d",
+      "source_revision": "c807c9eeea853df70aec4069e6f56b28ddc82acc",
+      "load_method": "infra-compatible AutoModel.from_pretrained; official key migration; zero missing/unexpected/mismatched keys",
+      "loading_info": {
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "model_class": "DINOv3ViTModel",
+      "parameter_count": 840592640,
+      "trainable_parameter_count": 0,
+      "frozen": true,
+      "eval_mode": true,
+      "elapsed_seconds": 15.319969788193703,
+      "note": "Weight preparation validation only. No feature extraction, gradient-flow, integration, or training claim.",
+      "dependencies": {
+        "torch": "2.7.1+cu128",
+        "transformers": "5.17.0",
+        "huggingface-hub": "1.31.0",
+        "safetensors": "0.8.0",
+        "timm": "1.0.29"
+      }
+    },
+    "dinov3-l": {
+      "name": "dinov3-l",
+      "directory": "/data/haoyang/3DP-wam/encoder/dinov3-l",
+      "device": "cpu",
+      "forward_executed": false,
+      "backward_executed": false,
+      "gpu_memory": null,
+      "status": "strict_cpu_load_passed",
+      "torch": "2.7.1+cu128",
+      "checkpoint_sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179",
+      "source_revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+      "load_method": "infra-compatible AutoModel.from_pretrained; official key migration; zero missing/unexpected/mismatched keys",
+      "loading_info": {
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "mismatched_keys": [],
+        "error_msgs": []
+      },
+      "model_class": "DINOv3ViTModel",
+      "parameter_count": 303129600,
+      "trainable_parameter_count": 0,
+      "frozen": true,
+      "eval_mode": true,
+      "elapsed_seconds": 13.815590793266892,
+      "note": "Weight preparation validation only. No feature extraction, gradient-flow, integration, or training claim.",
+      "dependencies": {
+        "torch": "2.7.1+cu128",
+        "transformers": "5.17.0",
+        "huggingface-hub": "1.31.0",
+        "safetensors": "0.8.0",
+        "timm": "1.0.29"
+      }
+    }
+  },
+  "baseline_smoke": "not_run",
+  "encoder_integration": "not_implemented",
+  "feature_cache": "not_implemented",
+  "training_steps": 0,
+  "evaluation": "not_run",
+  "gpu_feature_memory": "not_measured",
+  "resource_links": [
+    {
+      "path": "encoder/vggt-omega",
+      "target": "/data/fcy/code/openwam-exp/encoder/vggt-omega",
+      "exists": true
+    },
+    {
+      "path": "encoder/siglip-large-patch16-256",
+      "target": "/data/fcy/code/openwam-exp/encoder/siglip-large-patch16-256",
+      "exists": true
+    },
+    {
+      "path": "encoder/wan21-vae",
+      "target": "/data/fcy/code/openwam-exp/encoder/wan21-vae",
+      "exists": true
+    },
+    {
+      "path": "encoder/dinov3-l",
+      "target": "/data/fcy/code/openwam-exp/encoder/dinov3-l",
+      "exists": true
+    },
+    {
+      "path": "encoder/flux2-vae",
+      "target": "/data/fcy/code/openwam-exp/encoder/flux2-vae",
+      "exists": true
+    },
+    {
+      "path": "encoder/dinov3-hplus",
+      "target": "/data/fcy/code/openwam-exp/encoder/dinov3-hplus",
+      "exists": true
+    },
+    {
+      "path": "encoder/wan22-vae",
+      "target": "/data/fcy/code/openwam-exp/encoder/wan22-vae",
+      "exists": true
+    },
+    {
+      "path": "encoder/ijepa-g",
+      "target": "/data/fcy/code/openwam-exp/encoder/ijepa-g",
+      "exists": true
+    },
+    {
+      "path": "encoder/vjepa21-g",
+      "target": "/data/fcy/code/openwam-exp/encoder/vjepa21-g",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/rynnbrain-9b",
+      "target": "/data/fcy/model/RynnBrain1_1-9B",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/wan21-vae",
+      "target": "/data/fcy/code/openwam-exp/encoder/wan21-vae",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/vggt-1b",
+      "target": "/data/haoyang/3DP-wam/encoder/vggt-1b",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/dinov3-hplus",
+      "target": "/data/fcy/model/dinov3",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/ijepa-g",
+      "target": "/data/fcy/model/ijepa",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/wan22-vae",
+      "target": "/data/fcy/code/openwam-exp/encoder/wan22-vae",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/utonia-tiny",
+      "target": "/data/haoyang/3DP-wam/encoder/utonia-tiny",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/vjepa21-g",
+      "target": "/data/fcy/code/OpenWAM_v2/assets/vjepa",
+      "exists": true
+    },
+    {
+      "path": "assets/pretrained/wan21-i2v-14b-480p",
+      "target": "/data/fcy/code/openwam-exp/encoder/wan21-i2v-14b-480p",
+      "exists": false
+    },
+    {
+      "path": "cache/text",
+      "target": "/data/fcy/code/openwam-exp/cache/text",
+      "exists": true
+    }
+  ]
+}

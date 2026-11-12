@@ -1,0 +1,2 @@
+# Preserve original tool logs, including progress bars and trailing spaces.
+preparation/logs/*.log -whitespace

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "Resource preparation only; no encoder integration or experiments",
+  "models": {
+    "utonia-tiny": {
+      "repo_id": "Pointcept/Utonia",
+      "revision": "9457f025e36c7001ee962a542f0d27a5b600e1e7",
+      "subdir": "utonia-tiny",
+      "files": {
+        "utonia_tiny.pth": {
+          "bytes": 37390848,
+          "sha256": "e49a1944403d4ec3df459537fb7d5b132326736d0ebdb7c5a74868f3fa50d137"
+        },
+        "README.md": {"bytes": 3742}
+      },
+      "weight_license": "CC-BY-NC-4.0",
+      "weight_license_url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt",
+      "code_repository": "https://github.com/Pointcept/Utonia",
+      "code_directory": "third_party/utonia",
+      "code_revision": "5fce241d3fd943bdef2db14fdd41fff8b090d98e",
+      "code_license_file": "LICENSE"
+    },
+    "vggt-1b": {
+      "repo_id": "facebook/VGGT-1B",
+      "revision": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+      "subdir": "vggt-1b",
+      "files": {
+        "model.safetensors": {
+          "bytes": 5026367224,
+          "sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e"
+        },
+        "config.json": {"bytes": 62},
+        "README.md": {"bytes": 2060}
+      },
+      "weight_license": "CC-BY-NC-4.0",
+      "weight_license_url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt",
+      "code_repository": "https://github.com/facebookresearch/vggt",
+      "code_directory": "third_party/vggt",
+      "code_revision": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+      "code_license_file": "LICENSE.txt"
+    }
+  }
+}

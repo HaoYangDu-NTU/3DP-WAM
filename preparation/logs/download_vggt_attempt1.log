@@ -1,0 +1,32 @@
+Preparing vggt-1b/model.safetensors
+Verified model.safetensors: f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e
+Preparing vggt-1b/config.json
+Verified config.json: a73e929a168b900546a84fe88cd70dfaaf2f8e39cf77355b12984eaa686f3855
+Preparing vggt-1b/README.md
+Verified README.md: d666ecaba89db88cb66bf06db6daddfdc2400e13f2a39e39c84e888b27fbc615
+Download attempt 1/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 2/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 3/4: HTTPError: HTTP Error 403: Forbidden
+Download attempt 4/4: HTTPError: HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 109, in <module>
+    main()
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 93, in main
+    manifest["files"]["WEIGHTS_LICENSE.txt"] = fetch(spec["weight_license_url"], target / "WEIGHTS_LICENSE.txt")
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_geometry_encoders.py", line 48, in fetch
+    _download_direct(url, path)
+  File "/data/haoyang/3DP-wam/scripts/download_assets/download_visual_encoder.py", line 305, in _download_direct
+    with urllib.request.urlopen(req, timeout=60) as resp:
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/data/fcy/basics/miniconda3/envs/openwam/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden

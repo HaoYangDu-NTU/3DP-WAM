@@ -1,0 +1,101 @@
+{
+  "sha": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "node_id": "C_kwDON7rtpNoAKGEyODhkZDBmMTQ3ODZjOTM0ODNlNDU1MjQzMjg3MjZhYjdiMWI0Y2U",
+  "commit": {
+    "author": {
+      "name": "Jianyuan Wang",
+      "email": "jianyuan@meta.com",
+      "date": "2026-05-19T03:39:35Z"
+    },
+    "committer": {
+      "name": "Jianyuan Wang",
+      "email": "jianyuan@meta.com",
+      "date": "2026-05-19T03:39:35Z"
+    },
+    "message": "readme",
+    "tree": {
+      "sha": "0c6815bb33b15442e098b89245ec8e0ecfcc672e",
+      "url": "https://api.github.com/repos/facebookresearch/vggt/git/trees/0c6815bb33b15442e098b89245ec8e0ecfcc672e"
+    },
+    "url": "https://api.github.com/repos/facebookresearch/vggt/git/commits/a288dd0f14786c93483e45524328726ab7b1b4ce",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/facebookresearch/vggt/commits/a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "html_url": "https://github.com/facebookresearch/vggt/commit/a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "comments_url": "https://api.github.com/repos/facebookresearch/vggt/commits/a288dd0f14786c93483e45524328726ab7b1b4ce/comments",
+  "author": {
+    "login": "jytime",
+    "id": 37647961,
+    "node_id": "MDQ6VXNlcjM3NjQ3OTYx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/37647961?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jytime",
+    "html_url": "https://github.com/jytime",
+    "followers_url": "https://api.github.com/users/jytime/followers",
+    "following_url": "https://api.github.com/users/jytime/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jytime/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jytime/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jytime/subscriptions",
+    "organizations_url": "https://api.github.com/users/jytime/orgs",
+    "repos_url": "https://api.github.com/users/jytime/repos",
+    "events_url": "https://api.github.com/users/jytime/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jytime/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "jytime",
+    "id": 37647961,
+    "node_id": "MDQ6VXNlcjM3NjQ3OTYx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/37647961?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jytime",
+    "html_url": "https://github.com/jytime",
+    "followers_url": "https://api.github.com/users/jytime/followers",
+    "following_url": "https://api.github.com/users/jytime/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jytime/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jytime/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jytime/subscriptions",
+    "organizations_url": "https://api.github.com/users/jytime/orgs",
+    "repos_url": "https://api.github.com/users/jytime/repos",
+    "events_url": "https://api.github.com/users/jytime/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jytime/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9e4fa662a8893ed348d048e8b57816c12593448b",
+      "url": "https://api.github.com/repos/facebookresearch/vggt/commits/9e4fa662a8893ed348d048e8b57816c12593448b",
+      "html_url": "https://github.com/facebookresearch/vggt/commit/9e4fa662a8893ed348d048e8b57816c12593448b"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "additions": 3,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "fc04f23891e77e71b6c2b6c8e6716ee573dd8fa1",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "changes": 3,
+      "blob_url": "https://github.com/facebookresearch/vggt/blob/a288dd0f14786c93483e45524328726ab7b1b4ce/README.md",
+      "raw_url": "https://github.com/facebookresearch/vggt/raw/a288dd0f14786c93483e45524328726ab7b1b4ce/README.md",
+      "contents_url": "https://api.github.com/repos/facebookresearch/vggt/contents/README.md?ref=a288dd0f14786c93483e45524328726ab7b1b4ce",
+      "patch": "@@ -26,6 +26,9 @@\n \n ## Updates\n \n+- [May 18, 2026] The next step of VGGT — **VGGT-Omega** — has been released! Check it out at [https://vggt-omega.github.io/](https://vggt-omega.github.io/).\n+\n+\n - [May 15, 2026] We fixed an implementation issue that was keeping redundant intermediate tensors in memory. With the same GPU memory budget, VGGT can now run on roughly 2-3x more input frames! See [VGGT-Omega](https://vggt-omega.github.io/) for more details.\n \n "
+    }
+  ]
+}

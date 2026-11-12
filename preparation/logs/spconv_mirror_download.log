@@ -1,0 +1,6 @@
+Looking in indexes: https://mirrors.sustech.edu.cn/pypi/web/simple
+Collecting spconv-cu126
+  Downloading https://mirrors.sustech.edu.cn/pypi/web/packages/30/7f/5c1c0ba114f4bd50aed095f2695ffd28f292f04463f99ba3a8cfc2f183eb/spconv_cu126-2.3.8-cp310-cp310-manylinux_2_28_x86_64.whl (70.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.5/70.5 MB 7.8 MB/s eta 0:00:00
+Saved ./preparation/wheels/spconv_cu126-2.3.8-cp310-cp310-manylinux_2_28_x86_64.whl
+Successfully downloaded spconv-cu126

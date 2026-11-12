@@ -1,0 +1,5 @@
+Preparing utonia-tiny/utonia_tiny.pth
+Verified utonia_tiny.pth: e49a1944403d4ec3df459537fb7d5b132326736d0ebdb7c5a74868f3fa50d137
+Preparing utonia-tiny/README.md
+Verified README.md: a648786bfc4d4b9d0e6409b96dee8812726107f0c47a168fac88e4d6d18753f1
+READY utonia-tiny: /data/haoyang/3DP-wam/encoder/utonia-tiny; strict model loading still requires a separate check

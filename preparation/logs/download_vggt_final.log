@@ -1,0 +1,7 @@
+Preparing vggt-1b/model.safetensors
+Verified model.safetensors: f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e
+Preparing vggt-1b/config.json
+Verified config.json: a73e929a168b900546a84fe88cd70dfaaf2f8e39cf77355b12984eaa686f3855
+Preparing vggt-1b/README.md
+Verified README.md: d666ecaba89db88cb66bf06db6daddfdc2400e13f2a39e39c84e888b27fbc615
+READY vggt-1b: /data/haoyang/3DP-wam/encoder/vggt-1b; strict model loading still requires a separate check
