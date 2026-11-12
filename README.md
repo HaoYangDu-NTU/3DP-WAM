@@ -1,6 +1,6 @@
 # 3DP-wam
 
-本项目复用 `/data/fcy/code/openwam-exp` 的 OpenWAM infra，研究冻结 VGGT、Utonia 与视觉语义融合。目前仅准备资源，未开始新实验。设计、准备进度与验收状态见 [3DP-wam 研究与准备说明](docs/3DP_WAM_RESEARCH_PLAN.md)。
+本项目复用  OpenWAM infra，研究冻结 VGGT、Utonia 与视觉语义融合。目前仅准备资源，未开始新实验。设计、准备进度与验收状态见 [3DP-wam 研究与准备说明](docs/3DP_WAM_RESEARCH_PLAN.md)。
 
 官方 Utonia/VGGT 源码以固定版本 submodule 提供。获取完整代码：
 
